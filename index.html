@@ -1,9 +1,69 @@
-<!DOCTYPE  html>
+<!DOCTYPE html>
 <html>
     <head>
+        <title>YC Portfolio</title>
+        <link rel = "stylesheet" href="src/style.css">
     </head>
 
     <body>
-        <h1>This is heading tag and test</h1>
+        </header>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#courses">Courses</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <h1>This Is Yosup's Portfolio</h1>
+        </header>
+        
+        <main>
+            <section id = "about">
+                <h2>About Me</h2>
+                    <article class="content">
+                        <figure>
+                            <a href="#contact"><img src="img-files/meExample.png" width="300" height="300" alt="this is an image of Yosup Cheon"></a>
+                            <figcaption>this is an example</figcaption>
+                        </figure>
+                        <p>
+                            My Name Is <strong>Yosup Cheon.</strong><br>
+                            I am a 3rd-year CS student at SFU.<br>
+                            Nice to Meet You!
+                        </p>
+                    </article>
+            </section>
+
+            <section id = "courses">
+                <h2>Courses Took and Taking</h2>
+                <article>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th scope="col">Courses</th>
+                                <th scope="col">Completed</th>
+                                <th scope="col">I learned</th>
+                                <th scope="col">Period</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>CMPT 307</td><td>In Progress</td><td>how to calculate the running time for the algorithm</td><td>Jan-April 2022</td>
+                            </tr>
+                            <tr>
+                                <td>CMPT 354</td><td>In Progress</td><td>descriptions</td><td>Jan-April 2022</td>
+                            </tr>
+                            <tr>
+                                <td>STAT 270</td><td>In Progress</td><td>descriptions</td><td>Jan-April 2022</td>
+                            </tr>
+                            <tr>
+                                <td>CMPT 276</td><td>Completed</td><td>descriptions</td><td>Sept-Dec 2021</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </article>
+            </section>
+        </main>
+        
+        <footer id = "contact">
+            <h3>Contact Info: example@email.com </h3>
+        </footer>
     </body>
 </html>
