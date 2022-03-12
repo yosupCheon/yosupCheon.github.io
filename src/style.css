@@ -1,0 +1,32 @@
+body {
+	background: #0dd3bf;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+table {
+    border: 10px solid black;
+    text-align: center;
+    margin-left:0;
+}
+th {
+    border: 3px solid black;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+td {
+    border: 3px solid black;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #0ae336;
+    display: table-cell;
+}
+
+.content{
+    display:flex;
+}
