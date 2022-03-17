@@ -8,30 +8,36 @@
     <body>
         </header>
             <nav>
-                <a href='#about'>About</a>
-                <a href='#courses'>Courses</a>
-                <a href='#contact'>Contact</a>
+                <ul>
+                <li><a href='#about'>About</a></li>
+                <li><a href='#courses'>Courses</a></li>
+                <li><a href='#data-structures'>Data Structures</a></li>
+                <li><a href='#projects'>Projects</a></li>
+                <li><a href='#java-script-practice'>JavaScript Practice</a></li>
+                <li><a href='#contact'>Contact</a></li>
+                </ul>
             </nav>
             <h1 class = 'title' id='website-title'>This Is Yosup's Website</h1>
         </header>
         
         <main>
-            <section class = 'about'>
+            <section id = 'about'>
                 <h1>About Me</h1>
                     <article class='content'>
                         <figure>
                             <a href='#contact'><img src='img-files/meExample.png' width='300' height='300' alt='this is an image of Yosup Cheon'></a>
-                            <figcaption>this is an example</figcaption>
+                            <figcaption>(this is an example)</figcaption>
                         </figure>
-                        <p>
-                            My Name Is <strong>Yosup Cheon.</strong><br>
-                            I am a 3rd-year CS student at SFU.<br>
-                            Nice to Meet You!
-                        </p>
+                        <p>Hello! My Name Is <strong>Yosup Cheon.</strong><br>
+                            I am currently studying computer science at Simon Fraser University to deepen my knowledge and experiences of programming.<br>
+                            From the simple console application to a variety of data structures with objective-oriented programming (OOP) in C/C++, I have become proficient at OOP, and problem-solving skills.<br>
+                            <br>
+                            Resume:<a href='src/Resume.pdf'> here.</a>
+                        </p> 
                     </article>
             </section>
 
-            <section class = 'courses'>
+            <section id = 'courses'>
                 <h1>Courses Took and Taking</h1>
                 <article>
                     <table>
@@ -61,8 +67,33 @@
                 </article>
             </section>
         </main>
+
+        <section id = 'data-structures'>
+            <h1>Data Structures (will be added...)</h1>
+            <ol>
+                <li>Stack and Queue</li>
+                <li>Hash Table</li>
+                <li>Sorting</li>
+                <ul>
+                    <li>MergeSort</li>
+                    <li>Quicksort</li>
+                </ul>
+                <li>Trees</li>
+                <li>Analysis</li>
+                <ul>
+                    <li>Worst Case</li>
+                    <li>Amortized</li>
+                </ul>
+            </ol>
+        </section>
+        <section id = 'projects'>
+            <h1>Projects</h1>
+        </section>
+        <section id = 'java-script-practice'>
+            <h1>JavaScript Practice</h1>
+        </section>
         
-        <footer class = 'contact'>
+        <footer id = 'contact'>
             <p>Contact Info: <span style="color:deeppink">cheonyo0409@gmail.com (personal email)</span>
                 &emsp;
                 <a href="https://github.com/yosupCheon" target='_blank'>GitHub</a>

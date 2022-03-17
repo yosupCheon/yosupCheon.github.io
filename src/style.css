@@ -1,6 +1,13 @@
-/* *{border: 0.1px solid red;} */ 
+/* *{border: 0.1px solid red;}*/
+body {
+    background: beige;
+    font-family: arial;
+}
+
 h1{
-    color:rgb(172, 41, 41);
+    color:rgb(223, 66, 66);
+    text-align:center;
+    font-size: 50px;
 }
 h1.title{
     color:white;
@@ -11,11 +18,6 @@ h1.title{
 #website-title {
     background-color: #938619;
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-body {
-	background: rgb(10, 116, 135);
 }
 
 img {
@@ -26,7 +28,6 @@ img {
 table {
     border: 10px solid black;
     text-align: center;
-    
     margin: 20px auto;
 }
 th, td{
@@ -35,39 +36,57 @@ th, td{
     text-align: center;
 }
 
-nav {
-    background-color: #0ae336;
-    display: table-cell;
+nav ul {
+    background-color: beige;
+    display: table;
+	width: 100%;
 }
+nav li {
+    display: table-cell
+}
+li a {
+	display:block;
+	color: black;
+    text-align: center;
+    font-size: 20px;
+	padding: 10px;
+	text-decoration:none;
+}
+
 
 .content{
     display:flex;
-    padding-left: 200px;
+    padding-left: 100px;
 }
 .content p{
-    color: rgb(55, 0, 255);
+    color: black(55, 0, 255);
+    text-align:left;
 }
 
-.about{
-    background-color:#0dd3bf;
+#about, #courses, #data-structures, #projects, #java-script-practice {
     text-align: center;
+    padding-bottom: 80px;
+    border-bottom: 3px solid gray;
 }
 
-.courses{
-    background-color: rgb(36, 172, 102);
-    text-align: center;
-    
-}
 
-.contact{
+#contact{
     background-color:#362196;
     color:white;
     text-align: left;
 }
 
 a{
-    color: yellow;
+    color: rgb(255, 0, 4);
+    text-decoration:none;
 }
 a:hover{
     color: rgb(0, 113, 128);
 }
+
+ol, ul {
+    display: table; 
+    margin: 0 auto;
+    text-align: left;
+    font-size: 20px;
+  }
