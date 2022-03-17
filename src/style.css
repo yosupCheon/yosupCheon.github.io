@@ -1,5 +1,21 @@
+/* *{border: 0.1px solid red;} */ 
+h1{
+    color:rgb(172, 41, 41);
+}
+h1.title{
+    color:white;
+}
+.title{
+    text-transform: uppercase;
+}
+#website-title {
+    background-color: #938619;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
 body {
-	background: #0dd3bf;
+	background: rgb(10, 116, 135);
 }
 
 img {
@@ -10,16 +26,13 @@ img {
 table {
     border: 10px solid black;
     text-align: center;
-    margin-left:0;
+    
+    margin: 20px auto;
 }
-th {
+th, td{
     border: 3px solid black;
     font-family: Arial, sans-serif;
     text-align: center;
-}
-td {
-    border: 3px solid black;
-    font-family: Arial, sans-serif;
 }
 
 nav {
@@ -29,4 +42,32 @@ nav {
 
 .content{
     display:flex;
+    padding-left: 200px;
+}
+.content p{
+    color: rgb(55, 0, 255);
+}
+
+.about{
+    background-color:#0dd3bf;
+    text-align: center;
+}
+
+.courses{
+    background-color: rgb(36, 172, 102);
+    text-align: center;
+    
+}
+
+.contact{
+    background-color:#362196;
+    color:white;
+    text-align: left;
+}
+
+a{
+    color: yellow;
+}
+a:hover{
+    color: rgb(0, 113, 128);
 }
