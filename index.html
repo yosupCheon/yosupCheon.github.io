@@ -2,25 +2,25 @@
 <html>
     <head>
         <title>YC Portfolio</title>
-        <link rel = "stylesheet" href="src/style.css">
+        <link href='src/style.css' rel = 'stylesheet'>
     </head>
 
     <body>
         </header>
             <nav>
-                <a href="#about">About</a>
-                <a href="#courses">Courses</a>
-                <a href="#contact">Contact</a>
+                <a href='#about'>About</a>
+                <a href='#courses'>Courses</a>
+                <a href='#contact'>Contact</a>
             </nav>
-            <h1>This Is Yosup's Portfolio</h1>
+            <h1 class = 'title' id='website-title'>This Is Yosup's Website</h1>
         </header>
         
         <main>
-            <section id = "about">
-                <h2>About Me</h2>
-                    <article class="content">
+            <section class = 'about'>
+                <h1>About Me</h1>
+                    <article class='content'>
                         <figure>
-                            <a href="#contact"><img src="img-files/meExample.png" width="300" height="300" alt="this is an image of Yosup Cheon"></a>
+                            <a href='#contact'><img src='img-files/meExample.png' width='300' height='300' alt='this is an image of Yosup Cheon'></a>
                             <figcaption>this is an example</figcaption>
                         </figure>
                         <p>
@@ -31,16 +31,16 @@
                     </article>
             </section>
 
-            <section id = "courses">
-                <h2>Courses Took and Taking</h2>
+            <section class = 'courses'>
+                <h1>Courses Took and Taking</h1>
                 <article>
                     <table>
                         <thead>
                             <tr>
-                                <th scope="col">Courses</th>
-                                <th scope="col">Completed</th>
-                                <th scope="col">I learned</th>
-                                <th scope="col">Period</th>
+                                <th scope='col'>Courses</th>
+                                <th scope='col'>Completed</th>
+                                <th scope='col'>I learned</th>
+                                <th scope='col'>Period</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -62,8 +62,11 @@
             </section>
         </main>
         
-        <footer id = "contact">
-            <h3>Contact Info: example@email.com </h3>
+        <footer class = 'contact'>
+            <p>Contact Info: <span style="color:deeppink">cheonyo0409@gmail.com (personal email)</span>
+                &emsp;
+                <a href="https://github.com/yosupCheon" target='_blank'>GitHub</a>
+            </p>
         </footer>
     </body>
 </html>
