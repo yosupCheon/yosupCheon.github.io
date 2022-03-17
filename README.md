@@ -13,6 +13,7 @@ March 16, 2022
 - Added Menu bar on the top
 - Need to Fix:
     - empty space on the right side
+    - adding resume pdf file
 - Need to Do:
     - complete contents of each section
     - start study about JavaScript and then jQuery library
