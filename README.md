@@ -14,6 +14,7 @@ March 16, 2022
 - Need to Fix:
     - empty space on the right side
     - adding resume pdf file
+    - deploy does not work sometime and work sometimes
 - Need to Do:
     - complete contents of each section
     - start study about JavaScript and then jQuery library
