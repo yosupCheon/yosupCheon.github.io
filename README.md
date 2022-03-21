@@ -7,7 +7,7 @@ I started creating this website on March 10, 2022.
 March 11, 2022
 - Studied some HTML and CSS 
 - Constructed the basics of the webpages
-- Screenshot: ![alt text](src/first.png)
+- Screenshot: ![alt text](img-files/screenshot/first.png)
 -------------------------------------------------------------
 March 16, 2022
 - Updated overall design
@@ -19,7 +19,7 @@ March 16, 2022
 - Need to Do:
     - complete contents of each section
     - start study about JavaScript and then jQuery library
-- Screenshot: ![alt text](src/second.png)
+- Screenshot: ![alt text](img-files/screenshot/second.png)
 
 -------------------------------------------------------------
 March 20, 2022
@@ -33,6 +33,6 @@ March 20, 2022
     - complete the contents
     - more projects with JavaScript and then jQuery library
     - projects with python...
-- Screenshot: ![alt text](src/third.png)
+- Screenshot: ![alt text](img-files/screenshot/third.png)
 
 -------------------------------------------------------------
