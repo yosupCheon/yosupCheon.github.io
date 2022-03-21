@@ -1,7 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
     <head>
-        <title>YC Portfolio</title>
+        <meta charset='UTF-8'>
+        <meta name="description" content="This is Yosup's Website">
+        <meta name="author" content="Yosup">
+        
+        <title>Yosup Website</title>
         <link href= 'src/style.css' rel = 'stylesheet'>
     </head>
 
@@ -13,11 +17,11 @@
                 <li><a href='#courses'>Courses</a></li>
                 <li><a href='#data-structures'>Data Structures</a></li>
                 <li><a href='#projects'>Projects</a></li>
-                <li><a href='#java-script-practice'>JavaScript Practice</a></li>
                 <li><a href='#contact'>Contact</a></li>
+                <li><a href='#java-script-practice'>JavaScript Practice</a></li>
                 </ul>
             </nav>
-            <h1 class = 'title' id='website-title'>This Is Yosup's Website</h1>
+            <h1 class = 'title' id='website-title'>Welcome to Yosup's Website</h1>
         </header>
         
         <main>
@@ -84,13 +88,22 @@
                     <li>Amortized</li>
                 </ul>
             </ol>
-        </section>
+        </section> 
+        
+        <section id = 'java-script-practice'>
+            <h1>JavaScript Practice</h1>
+            <h2>Guess Number!</h2>
+            <h3>Please enter a number between 0 to 10: </h3>
+            <input id='user-input' value='0 to 10:'>
+            <button id='button-submit'>submit</button>
+            <div id = 'computer-result'></div>
+            <div id = 'result'></div>
+        </section> 
+
         <section id = 'projects'>
             <h1>Projects</h1>
         </section>
-        <section id = 'java-script-practice'>
-            <h1>JavaScript Practice</h1>
-        </section>
+        
         
         <footer id = 'contact'>
             <p>Contact Info: <span style="color:deeppink">cheonyo0409@gmail.com (personal email)</span>
@@ -98,5 +111,7 @@
                 <a href="https://github.com/yosupCheon" target='_blank'>GitHub</a>
             </p>
         </footer>
+
+        <script src='main.js'></script>
     </body>
 </html>
