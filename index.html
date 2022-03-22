@@ -1,56 +1,57 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang="en">
     <head>
-        <meta charset='UTF-8'>
+        <meta charset="UTF-8">
         <meta name="description" content="This is Yosup's Website">
         <meta name="author" content="Yosup">
         
         <title>Yosup Website</title>
-        <link href= 'src/style.css' rel = 'stylesheet'>
+        <link rel = "stylesheet" href= "src/style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Patrick Hand">
     </head>
 
     <body>
         </header>
             <nav>
                 <ul>
-                <li><a href='#about'>About</a></li>
-                <li><a href='#courses'>Courses</a></li>
-                <li><a href='#data-structures'>Data Structures</a></li>
-                <li><a href='#java-script-practice'>JavaScript Practice</a></li>
-                <li><a href='#projects'>Projects</a></li>
-                <li><a href='#contact'>Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#data-structures">Data Structures</a></li>
+                <li><a href="#java-script-practice">JavaScript Practice</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
-            <h1 class = 'title' id='website-title'>Welcome to Yosup's Website</h1>
+            <h1 class = "title" id="website-title">Welcome to Yosup's Website</h1>
         </header>
         
         <main>
-            <div id = 'about'>
+            <div id = "about">
                 <h1>About Me</h1>
-                    <article class='content'>
+                    <article class="content">
                         <figure>
-                            <a href='#contact'><img src='img-files/meExample.png' width='300' height='300' alt='this is an image of Yosup Cheon'></a>
+                            <a href="#contact"><img src="img-files/meExample.png" width="300" height="300" alt="this is an image of Yosup Cheon"></a>
                             <figcaption>(this is an example)</figcaption>
                         </figure>
-                        <p>Hello! My Name Is <strong>Yosup Cheon.</strong><br>
+                        <p>Hello! my name is <strong>Yosup Cheon</strong>.<br>
                             I am currently studying computer science at Simon Fraser University to deepen my knowledge and experiences of programming.<br>
-                            From the simple console application to a variety of data structures with objective-oriented programming (OOP) in C/C++, I have become proficient at OOP, and problem-solving skills.<br>
-                            <br>
-                            <a href='src/resume/Resume.pdf' target='_blank'>Here is my up to date resume!</a>
+                            I have completed the simple console application, a variety of data structures and team-oriented projects.<br><br>
+                            <a href="src/resume/Resume.pdf" target="_blank">Here is my up to date resume!</a><br><br>
+                            <a href="#courses">See below for details</a>
                         </p> 
                     </article>
             </div>
 
-            <div id = 'courses'>
+            <div id = "courses">
                 <h1>Courses Took and Taking</h1>
                 <article>
                     <table>
                         <thead>
                             <tr>
-                                <th scope='col'>Courses</th>
-                                <th scope='col'>Completed</th>
-                                <th scope='col'>I learned</th>
-                                <th scope='col'>Period</th>
+                                <th scope="col">Courses</th>
+                                <th scope="col">Completed</th>
+                                <th scope="col">I learned</th>
+                                <th scope="col">Period</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -72,7 +73,7 @@
             </div>
         </main>
 
-        <div id = 'data-structures'>
+        <div id = "data-structures">
             <h1>Data Structures (will be added...)</h1>
             <ol>
                 <li>Stack and Queue</li>
@@ -91,28 +92,28 @@
             </ol>
         </div> 
 
-        <div id = 'java-script-practice'>
+        <div id = "java-script-practice">
             <h1>JavaScript Practice</h1>
             <h2>Guess Number!</h2>
             <h3>Please enter a number between 0 to 10: </h3>
-            <input id='user-input' value='0 to 10:'>
-            <button id='button-submit'>submit</button><br><br>
-            <div>Correct Number: <span id = 'correct-result'></span></div>
-            <div id = 'result'></div>
+            <input id="user-input" value="0 to 10:">
+            <button id="button-submit">submit</button><br><br>
+            <div>Correct Number: <span id = "correct-result"></span></div>
+            <div id = "result"></div>
         </div> 
 
-        <div id = 'projects'>
+        <div id = "projects">
             <h1>Projects</h1>
         </div>
         
         
-        <footer id = 'contact'>
+        <footer id = "contact">
             <p>Contact Info: <span style="color:deeppink">cheonyo0409@gmail.com (personal email)</span>
                 &emsp;
-                <a href="https://github.com/yosupCheon" target='_blank'>GitHub</a>
+                <a href="https://github.com/yosupCheon" target="_blank">GitHub</a>
             </p>
         </footer>
 
-        <script src='src/main.js'></script>
+        <script src="src/main.js"></script>
     </body>
 </html>
