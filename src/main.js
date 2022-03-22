@@ -5,7 +5,7 @@ document.getElementById("button-submit").addEventListener("click", compare);
 function compare () {
     userVal = document.getElementById("user-input").value;
     randVal = getRandomNum();
-    document.getElementById("computer-result").innerHTML = randVal;
+    document.getElementById("correct-result").innerHTML = randVal;
     document.getElementById("result").innerHTML = matchDetermine(userVal, randVal);
 }
 
