@@ -1,7 +1,7 @@
 /* *{border: 0.1px solid red;}*/
 body {
     background: beige;
-    font-family: arial;
+    font-family: "Patrick Hand";
 }
 
 h1{
@@ -28,6 +28,7 @@ img {
     height: 200px;
 }
 
+
 table {
     border: 10px solid black;
     text-align: center;
@@ -35,9 +36,11 @@ table {
 }
 th, td{
     border: 3px solid black;
-    font-family: Arial, sans-serif;
+    font-family: Arial;
+    font-weight: 800;
     text-align: center;
 }
+
 
 nav ul {
     background-color: beige;
@@ -64,6 +67,7 @@ li a {
 .content p{
     color: black(55, 0, 255);
     text-align:left;
+    font-size: 28px;
 }
 
 #about, #courses, #data-structures, #projects, #java-script-practice {
