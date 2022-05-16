@@ -11,7 +11,7 @@ h1{
     font-size: 50px;
 }
 h2, h3{
-    color:rgb(93, 4, 171);
+    color:rgb(4, 171, 43);
 }
 h1.title{
     color:white;
@@ -42,7 +42,8 @@ h1.title{
 
 img {
     width: 200px;
-    height: 200px;
+    height: 250px;
+    margin-right: 30px;
 }
 
 
@@ -81,15 +82,21 @@ li a {
 }
 
 
-.content{
+.content {
     display:flex;
-    padding-left: 100px;
+    padding: 30px;
 }
-.content p{
-    color: black(55, 0, 255);
-    text-align:left;
-    font-size: 28px;
+.content figure, .content .container{
+    /*flex: 0 0 25%;*/
+    flex: 1 1 auto;
 }
+.content p {
+    /*flex: 0 0 33%;*/
+    font-size:25px;
+    flex: 1 1 auto;
+    text-align: left;
+}
+
 
 #about, #courses, #data-structures, #projects, #java-script-practice {
     text-align: center;
