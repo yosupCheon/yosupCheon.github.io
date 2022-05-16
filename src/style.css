@@ -57,6 +57,7 @@ th, td{
     font-family: Arial;
     font-weight: 800;
     text-align: center;
+    padding:20px;
 }
 table #semester{
     background-color: rgb(165, 218, 18);
@@ -96,11 +97,16 @@ li a {
     flex: 1 1 auto;
     text-align: left;
 }
+.content strong {
+    font-size:40px;
+    color: rgb(19, 23, 121);
+}
 
 
 #about, #courses, #data-structures, #projects, #java-script-practice {
     text-align: center;
-    padding-bottom: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     border-bottom: 3px solid gray;
 }
 
@@ -119,7 +125,7 @@ a:hover{
     color: rgb(0, 113, 128);
 }
 
-ol, ul {
+ol {
     display: table; 
     margin: 0 auto;
     text-align: left;
