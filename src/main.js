@@ -10,7 +10,11 @@ function compare () {
     userVal = document.getElementById("user-input").value;
     randVal = getRandomNum();
     document.getElementById("correct-result").innerHTML = randVal;
-    if (isNaN(parseInt(0 <= randVal || randVal <= 10))){userVal=12;}
+
+    if (isNaN(userVal-1)){
+        userVal=12;
+    }
+
     document.getElementById("result").innerHTML = matchDetermine(userVal, randVal);
 }
 
