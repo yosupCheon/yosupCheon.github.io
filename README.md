@@ -13,7 +13,7 @@ March 16, 2022
 - Updated overall design
 - Added Menu bar on the top
 - Need to Fix:
-    - empty space on the right side (update-Mar20: not yet)
+    - empty space on the right side (update-Mar20: completed)
     - adding resume pdf file (update-Mar20: completed)
     - deploy does not work sometime and work sometimes (update-Mar20: works if deploy with interval of 15 minutes)
 - Need to Do:
@@ -26,9 +26,7 @@ March 20, 2022
 - Added Random Number Guess progeram with JavaScript
 - : a user insert a number (0-10) to guess a random number
 - Need to Fix:
-    - empty space on the right side (from March 16)
-    - when input of the program is valid integer with invalid item still run properly without error message
-    - : for example, "3withInvalid" still works because of 3 infront of the input item
+    - : for example, "3withInvalid" still works because of 3 infront of the input item (fixed)
 - Need to Do:
     - complete the contents
     - more projects with JavaScript and then jQuery library
@@ -39,7 +37,13 @@ March 20, 2022
 May 16, 2022
 - Organized the webpage and update the info.
 - Need to Fix:
-    - Previous errors
-    - Finishing updating the info
+    - Previous errors (completed)
+    - Finishing updating the info (completed)
 
+-------------------------------------------------------------
+May 29, 2022
+- Organized the webpage and update the info.
+- Need to Fix:
+    - Done
+    
 -------------------------------------------------------------
