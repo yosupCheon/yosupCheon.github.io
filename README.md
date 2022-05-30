@@ -44,6 +44,7 @@ May 16, 2022
 May 29/30, 2022
 - Organized the webpage and update the info.
 - Need to Fix:
+    - JavaScript file was not properly deployed (wait the server to update)
     - Done
 - Screenshot: ![alt text](img-files/screenshot/fourth.png)
 -------------------------------------------------------------
